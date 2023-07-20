@@ -7,7 +7,7 @@ Scraping Chat Gpt from [chat.ramxn.dev](https://chat.ramxn.dev/chat/)
 ```
 (async () => {
 const chatgpt = require("@nechlophomeriaa/chatgptv2")
-xonst ai = await chatgpt.generate(text, model) // Default model is set to gpt-4-poe
+const ai = await chatgpt.generate(text, model) // Default model is set to gpt-4-poe
 console.log(ai)
 })
 ```
@@ -17,4 +17,13 @@ console.log(ai)
 const chatgpt = require("@nechlophomeriaa/chatgptv2")
 const model = chatgpt.model()
 console.log(model)
+```
+
+# Example
+```
+(async () => {
+const chatgpt = require("@nechlophomeriaa/chatgptv2")
+const ai = await chatgpt.generate("example javascript array", "claude-instant-100k")
+console.log(ai)
+})
 ```
