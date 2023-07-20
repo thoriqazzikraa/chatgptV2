@@ -53,3 +53,5 @@ async function generate(text, model) {
   };
   return result;
 }
+
+module.exports = { model, generate }
