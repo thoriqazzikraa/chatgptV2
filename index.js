@@ -3,10 +3,10 @@ const axios = require("axios");
 const listModel = [
   "claude-instant",
   "claude-2-100k",
-  "claude-instant-100k",
+  "claude-instant-100k", //Default
   "sage",
-  "gpt-4-0613",
-  "gpt-4-poe", //Default Model
+  "gpt-4-0314",
+  "gpt-4-poe",
   "gpt-3.5-turbo-poe",
   "gpt-3.5-turbo-16k-poe",
 ];
@@ -17,7 +17,7 @@ async function model() {
 
 async function generate(text, model) {
   if (model === undefined || model === 0 || model === null) {
-    var getModel = "gpt-4-poe";
+    var getModel = "claude-instant-100k";
   } else {
     var getModel = model;
   }
@@ -54,4 +54,4 @@ async function generate(text, model) {
   return result;
 }
 
-module.exports = { model, generate }
+module.exports = { model, generate };
