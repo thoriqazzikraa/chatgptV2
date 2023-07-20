@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "axios": "^1.4.0"
+  },
+  "name": "@nechlophomeriaa/chatgptv2",
+  "description": "Free Chat GPT Module build with Nodejs",
+  "version": "0.0.1",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thoriqazzikraa/chatgptV2.git"
+  },
+  "keywords": [
+    "free-chatgpt",
+    "openai",
+    "chatgpt",
+    "ai",
+    "gpt-4"
+  ],
+  "author": "Thoriq Azzikra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thoriqazzikraa/chatgptV2/issues"
+  },
+  "homepage": "https://github.com/thoriqazzikraa/chatgptV2#readme"
+}
