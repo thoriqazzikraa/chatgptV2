@@ -15,18 +15,15 @@ async function model() {
   return listModel;
 }
 
-async function generate(text, model) {
-  if (model === undefined || model === 0 || model === null) {
-    var getModel = "claude-instant-100k";
-  } else {
-    var getModel = model;
-  }
+async function generate(text, model, apikey) {
+  const getModel = model ? model : "claude-instant-100k";
+  const apiKey = apikey ? apikey : "";
   const { data } = await axios(
     `https://chat.ramxn.dev/backend-api/v2/conversation`,
     {
       method: "post",
       data: {
-        api_key: "",
+        api_key: apiKey,
         conversation_id: "ee83e63c-4f64-4cc1-a30e-18974a563d8",
         action: "_ask",
         model: getModel,

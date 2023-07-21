@@ -9,10 +9,15 @@ Scraping Chat Gpt from [chat.ramxn.dev](https://chat.ramxn.dev/chat/)
 ```
 (async () => {
 const chatgpt = require("@nechlophomeriaa/chatgptv2")
-const ai = await chatgpt.generate(text, model) // Default model is set to claude-instant-100k
+const ai = await chatgpt.generate(text, model, apikey) // Default model is set to claude-instant-100k
 console.log(ai)
 })
 ```
+
+# Apikey
+
+You can get the apikey for free by join [this discord server](https://discord.gg/chimeragpt)
+
 
 # Models
 
