@@ -3,19 +3,19 @@ const axios = require("axios");
 const listModel = [
   "claude-instant",
   "claude-2-100k",
-  "claude-instant-100k", //Default
+  "claude-instant-100k",
   "sage",
-  "gpt-4-0314",
+  "gpt-4-0314", //Default
   "gpt-4-poe",
   "gpt-3.5-turbo-poe",
   "gpt-3.5-turbo-16k-poe",
 ];
 
 const listModelV2 = [
-  "gpt-3.5-turbo",
+  "gpt-3.5-turbo", // Default
   "gpt-3.5-turbo-0613",
   "gpt-3.5-turbo-16k",
-  "gpt-3.5-turbo-16k-0613", // Default
+  "gpt-3.5-turbo-16k-0613",
   "gpt-4",
 ];
 
@@ -28,7 +28,7 @@ async function modelV2() {
 }
 
 async function generateV2(text, model) {
-  const getModel = model ? model : "gpt-3.5-turbo-16k-0613";
+  const getModel = model ? model : "gpt-3.5-turbo";
   const { data } = await axios(
     `https://freegpt-webui.ramonvc.repl.co/backend-api/v2/conversation`,
     {
@@ -62,7 +62,7 @@ async function generateV2(text, model) {
 }
 
 async function generate(text, model, apikey) {
-  const getModel = model ? model : "claude-instant-100k";
+  const getModel = model ? model : "gpt-4-0314";
   const apiKey = apikey ? apikey : "";
   const { data } = await axios(
     `https://chat.ramxn.dev/backend-api/v2/conversation`,
