@@ -223,126 +223,126 @@ async function generateV2(text, model) {
 }
 
 async function generate(text, model, apikey) {
-  const _0x2a214a = _0x4d4e;
-  (function (_0x1e54c1, _0x5b452f) {
-    const _0x1a4f13 = _0x4d4e,
-      _0x1f2010 = _0x1e54c1();
+  const _0x1cf28a = _0x187d;
+  (function (_0x141eaf, _0x15b220) {
+    const _0x285463 = _0x187d,
+      _0x433e30 = _0x141eaf();
     while (!![]) {
       try {
-        const _0x57325e =
-          (parseInt(_0x1a4f13(0x163)) / (-0x7 * 0x220 + 0x2092 + -0x11b1)) *
-            (parseInt(_0x1a4f13(0x157)) / (-0x1525 + -0xf7b + 0x24a2)) +
-          (parseInt(_0x1a4f13(0x166)) / (0x178a + -0x2706 + 0xf7f)) *
-            (-parseInt(_0x1a4f13(0x171)) /
-              (-0x1dc1 + -0xe * -0x9e + 0x3 * 0x70b)) +
-          (parseInt(_0x1a4f13(0x15d)) / (-0x1987 + 0x136d + 0x61f)) *
-            (-parseInt(_0x1a4f13(0x162)) / (-0xef4 + -0x11c5 + 0x20bf)) +
-          (-parseInt(_0x1a4f13(0x164)) / (-0x173d + 0x13e + 0x1606)) *
-            (parseInt(_0x1a4f13(0x16a)) / (-0x805 + -0x8dd + -0x1b1 * -0xa)) +
-          parseInt(_0x1a4f13(0x16d)) / (0x26c7 * 0x1 + 0xd1b + -0x33d9) +
-          (-parseInt(_0x1a4f13(0x152)) / (0xc95 * -0x1 + -0x204f + 0x2cee)) *
-            (-parseInt(_0x1a4f13(0x161)) / (0x72a + 0x2337 + -0x2a56)) +
-          (parseInt(_0x1a4f13(0x169)) / (0xfaa + 0x7 * -0x388 + 0x91a)) *
-            (-parseInt(_0x1a4f13(0x167)) / (0xdc7 + -0x48 * 0x4f + 0x87e));
-        if (_0x57325e === _0x5b452f) break;
-        else _0x1f2010["push"](_0x1f2010["shift"]());
-      } catch (_0x3a9565) {
-        _0x1f2010["push"](_0x1f2010["shift"]());
+        const _0x5dd42c =
+          (parseInt(_0x285463(0x144)) / (-0x2678 + -0xc1 * 0x32 + 0x4c2b)) *
+            (-parseInt(_0x285463(0x138)) / (-0x105d + 0x9 * -0x38b + 0x3042)) +
+          -parseInt(_0x285463(0x145)) / (-0xd8f + 0x21e6 + -0x1454) +
+          (-parseInt(_0x285463(0x148)) /
+            (0x1d18 + -0x1 * 0x1d9f + 0x1 * 0x8b)) *
+            (-parseInt(_0x285463(0x147)) /
+              (-0x2 * -0x989 + -0x11e + 0x11ef * -0x1)) +
+          (-parseInt(_0x285463(0x135)) /
+            (0x1 * -0x7c + -0x1 * -0x23fd + -0x237b * 0x1)) *
+            (-parseInt(_0x285463(0x132)) / (-0x182f + 0xb0c + -0x2a2 * -0x5)) +
+          -parseInt(_0x285463(0x13e)) / (-0xc5 * 0x1d + 0x1850 + -0x1 * 0x1f7) +
+          -parseInt(_0x285463(0x146)) /
+            (-0x36c * 0x2 + -0x14ad + -0x2 * -0xdc7) +
+          (parseInt(_0x285463(0x133)) / (0x5f6 + -0x6dd + -0xf1 * -0x1)) *
+            (parseInt(_0x285463(0x134)) /
+              (-0x17b * 0x4 + 0x3d * -0x71 + 0xa * 0x34a));
+        if (_0x5dd42c === _0x15b220) break;
+        else _0x433e30["push"](_0x433e30["shift"]());
+      } catch (_0x28a00f) {
+        _0x433e30["push"](_0x433e30["shift"]());
       }
     }
-  })(_0x306f, -0xe26 * -0x5d + 0xa5db1 * -0x1 + -0x1 * -0x102da3);
-  const getModel = model ? model : _0x2a214a(0x14f) + _0x2a214a(0x154),
+  })(_0x39a5, -0x115 * 0x5ea + 0x222c * -0x3e + 0x177692);
+  const getModel = model ? model : _0x1cf28a(0x140) + _0x1cf28a(0x137),
     apiKey = apikey ? apikey : defaultApikey,
     { data } = await axios(
-      _0x2a214a(0x170) +
-        _0x2a214a(0x15a) +
-        _0x2a214a(0x153) +
-        _0x2a214a(0x168) +
-        _0x2a214a(0x16f),
+      _0x1cf28a(0x13a) +
+        _0x1cf28a(0x13f) +
+        _0x1cf28a(0x151) +
+        _0x1cf28a(0x14c) +
+        _0x1cf28a(0x14d),
       {
-        method: _0x2a214a(0x150),
+        method: _0x1cf28a(0x142),
         data: {
           api_key: apiKey,
           conversation_id:
-            _0x2a214a(0x155) +
-            _0x2a214a(0x16e) +
-            _0x2a214a(0x151) +
-            _0x2a214a(0x15b),
-          action: _0x2a214a(0x158),
+            _0x1cf28a(0x139) +
+            _0x1cf28a(0x150) +
+            _0x1cf28a(0x13c) +
+            _0x1cf28a(0x14a),
+          action: _0x1cf28a(0x152),
           model: getModel,
-          jailbreak: _0x2a214a(0x159),
+          jailbreak: _0x1cf28a(0x13b),
           meta: {
-            id: _0x2a214a(0x16c) + _0x2a214a(0x16b),
+            id: _0x1cf28a(0x143) + _0x1cf28a(0x136),
             content: {
               conversation: [],
-              internet_access: ![],
-              content_type: _0x2a214a(0x15e),
-              parts: [{ content: text, role: _0x2a214a(0x15c) }],
+              internet_access: !![],
+              content_type: _0x1cf28a(0x14e),
+              parts: [{ content: text, role: _0x1cf28a(0x14b) }],
             },
           },
         },
         headers: {
-          accept: _0x2a214a(0x165) + _0x2a214a(0x160),
-          "content-type": _0x2a214a(0x156) + _0x2a214a(0x15f),
+          accept: _0x1cf28a(0x149) + _0x1cf28a(0x14f),
+          "content-type": _0x1cf28a(0x13d) + _0x1cf28a(0x141),
         },
       }
     ),
     result = { model: getModel, data: data };
-  function _0x4d4e(_0x36c46b, _0x1e1e55) {
-    const _0x32acb8 = _0x306f();
+  function _0x187d(_0x413d28, _0x1996f5) {
+    const _0x4fe995 = _0x39a5();
     return (
-      (_0x4d4e = function (_0x417692, _0x4dc33d) {
-        _0x417692 = _0x417692 - (0x4c1 * 0x1 + -0xf19 * 0x1 + 0xba7);
-        let _0x1b8ff2 = _0x32acb8[_0x417692];
-        return _0x1b8ff2;
+      (_0x187d = function (_0x36346c, _0x326f86) {
+        _0x36346c = _0x36346c - (-0x2c8 * -0x1 + -0x18ce + 0x1738);
+        let _0xba63d9 = _0x4fe995[_0x36346c];
+        return _0xba63d9;
       }),
-      _0x4d4e(_0x36c46b, _0x1e1e55)
+      _0x187d(_0x413d28, _0x1996f5)
     );
   }
-  function _0x306f() {
-    const _0x1a5299 = [
-      "rbo-0301",
-      "ee83e63c-4",
+  return result;
+  function _0x39a5() {
+    const _0x57b5c8 = [
       "applicatio",
-      "6JwPuuO",
-      "_ask",
-      "default",
+      "5215056smpwWE",
       "at.ramxn.d",
+      "gpt-3.5-tu",
+      "n/json",
+      "post",
+      "7257975704",
+      "3ErZFxb",
+      "799554vkEEGo",
+      "6119784vXnnFO",
+      "1670965YFoGcp",
+      "4gnwtya",
+      "text-event",
       "563d8",
       "user",
-      "10TwOqTn",
-      "text",
-      "n/json",
-      "-stream",
-      "2929278yDKqIa",
-      "3775704ByCohl",
-      "301825PUeULu",
-      "56aXZXVx",
-      "text-event",
-      "908940liQAwm",
-      "39WcppLF",
       "-api/v2/co",
-      "487764jkwaOp",
-      "315496ARvruK",
-      "691867202",
-      "7257975704",
-      "9441522gmlGET",
-      "f64-4cc1-a",
       "nversation",
-      "https://ch",
-      "8UbJGgD",
-      "gpt-3.5-tu",
-      "post",
-      "30e-18974a",
-      "40lEJZfm",
+      "text",
+      "-stream",
+      "f64-4cc1-a",
       "ev/backend",
+      "_ask",
+      "1389598BYumPa",
+      "47510TMoLbT",
+      "5357LPAPDz",
+      "12OgfQUJ",
+      "691867202",
+      "rbo-0301",
+      "580436XwSEVq",
+      "ee83e63c-4",
+      "https://ch",
+      "default",
+      "30e-18974a",
     ];
-    _0x306f = function () {
-      return _0x1a5299;
+    _0x39a5 = function () {
+      return _0x57b5c8;
     };
-    return _0x306f();
+    return _0x39a5();
   }
-  return result;
 }
 
 module.exports = { model, modelV2, generateV2, generate };
