@@ -1,6 +1,5 @@
 const axios = require("axios")
 
-generate("hello")
 async function generate(text) {
   try {
     const { data } = await axios(`https://chatg.io/wp-json/mwai-ui/v1/chats/submit`, {
