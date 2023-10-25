@@ -1,16 +1,18 @@
 const axios = require("axios")
 
+generate("hello")
 async function generate(text) {
   try {
-    const { data } = await axios(`https://onlinegpt.org/wp-json/mwai-ui/v1/chats/submit`, {
+    const { data } = await axios(`https://chatg.io/wp-json/mwai-ui/v1/chats/submit`, {
       method: "post",
       data: {
+        id: null,
         botId: "default",
+        messages: [],
         newMessage: text,
         stream: false
       },
       headers: {
-        Accept: "text/event-stream",
         "Content-Type": "application/json"
       }
     })
