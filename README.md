@@ -16,7 +16,7 @@ const { generate } = require("@nechlophomeriaa/chatgptv2")
 
 ```js
 (async () => {
-const ai = generate(text)
+const ai = await generate(text)
 console.log(ai)
 })
 ```
